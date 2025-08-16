@@ -12,7 +12,7 @@ import {
 } from 'recharts';
 import axios from 'axios';
 
-const { Option } = Select;
+const { Option } = Select; 
 
 interface MonthlySummary {
     month: string;
