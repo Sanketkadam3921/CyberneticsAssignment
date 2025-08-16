@@ -16,7 +16,7 @@ const TransactionsPage: React.FC = () => (
         </Row>
 
         <Card>
-            <TransactionsTable />
+            <TransactionsTable /> 
         </Card>
     </>
 );
