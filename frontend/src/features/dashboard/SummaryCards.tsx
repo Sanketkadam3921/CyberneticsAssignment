@@ -8,7 +8,7 @@ import {
 } from '@ant-design/icons';
 import axios from 'axios';
 
-const { Title, Text } = Typography;
+const { Title, Text } = Typography; 
 
 interface SummaryData {
     totalRevenue: number;
