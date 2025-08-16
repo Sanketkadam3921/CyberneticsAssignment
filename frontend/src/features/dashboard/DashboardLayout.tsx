@@ -5,7 +5,7 @@ import SummaryCards from './SummaryCards';
 import RevenueChart from './RevenueChart';
 import TransactionsTable from './TransactionsTable';
 import ExportModal from '../export/ExportModal';
-import RecentTransactions from './RecentTransactions';
+import RecentTransactions from './RecentTransactions'; 
 
 const DashboardLayout: React.FC = () => {
     return (
