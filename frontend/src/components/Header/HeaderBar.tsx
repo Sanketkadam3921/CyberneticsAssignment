@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Input, Avatar, Badge, Typography, Space, Row, Col } from 'antd';
 import { BellOutlined, SearchOutlined, UserOutlined } from '@ant-design/icons';
 import debounce from 'lodash.debounce';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom'; 
 
 const { Title } = Typography;
 
