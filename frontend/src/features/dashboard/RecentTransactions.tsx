@@ -10,7 +10,7 @@ interface Transaction {
     amount: number;
     status: string;
     user_id: string;
-    user_profile: string;
+    user_profile: string; 
     category: string;
 }
 
