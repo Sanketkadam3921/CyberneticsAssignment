@@ -14,7 +14,7 @@ const app = (0, express_1.default)();
 app.use((0, cors_1.default)({
     origin: process.env.NODE_ENV === 'production' ? 'your-frontend-domain.com' : 'http://localhost:3000',
     credentials: true
-}));
+})); 
 app.use(express_1.default.json());
 // Routes
 app.use('/api/auth', auth_routes_1.default);
