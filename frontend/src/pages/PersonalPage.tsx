@@ -11,7 +11,7 @@ const { Title, Text } = Typography;
 
 const PersonalPage: React.FC = () => {
     const [profile, setProfile] = useState<any>(null);
-    const [transactions, setTransactions] = useState<any[]>([]);
+    const [transactions, setTransactions] = useState<any[]>([]); 
     const [loading, setLoading] = useState(true);
     const [form] = Form.useForm();
 
