@@ -16,7 +16,7 @@ const TransactionSchema = new Schema<ITransaction>(
             type: Date,
             required: [true, 'Date is required']
         },
-        amount: {
+        amount: { 
             type: Number,
             required: [true, 'Amount is required'],
             min: [0, 'Amount cannot be negative']
