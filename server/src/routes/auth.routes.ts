@@ -12,7 +12,7 @@ interface SignupBody {
 }
 
 interface LoginBody {
-    email: string;
+    email: string; 
     password: string;
 }
 
