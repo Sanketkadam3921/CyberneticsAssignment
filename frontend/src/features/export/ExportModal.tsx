@@ -11,7 +11,7 @@ const fieldOptions = [
     { label: 'Date', value: 'date' },
     { label: 'Amount', value: 'amount' },
     { label: 'Category', value: 'category' },
-    { label: 'Status', value: 'status' },
+    { label: 'Status', value: 'status' }, 
     { label: 'User ID', value: 'user_id' },
     { label: 'User Profile', value: 'user_profile' },
     { label: 'Description', value: 'description' }
