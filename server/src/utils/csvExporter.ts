@@ -20,7 +20,7 @@ export const createCSV = async (
 
                 // Format date fields
                 if (col === 'date' && value instanceof Date) {
-                    value = value.toISOString().split('T')[0];
+                    value = value.toISOString().split('T')[0]; 
                 }
 
                 // Format amount
