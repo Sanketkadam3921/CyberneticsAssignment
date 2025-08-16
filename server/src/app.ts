@@ -15,7 +15,7 @@ app.use(cors({
         'http://localhost:5173',
         'https://financial-dashboard-frontend-mocha.vercel.app'
     ],
-    credentials: true,
+    credentials: true,  
 }));
 
 
