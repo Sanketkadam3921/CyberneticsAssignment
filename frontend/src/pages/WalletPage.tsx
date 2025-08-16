@@ -21,7 +21,7 @@ const WalletPage: React.FC = () => {
                     }),
                     axios.get('http://localhost:5000/api/transactions', {
                         headers: { Authorization: `Bearer ${token}` },
-                        params: { page: 1, limit: 5 }
+                        params: { page: 1, limit: 5 } 
                     })
                 ]);
                 setSummary(sumRes.data);
