@@ -11,7 +11,7 @@ const HomePage: React.FC = () => {
     const [isLoginVisible, setLoginVisible] = useState(false);
     const [isSignupVisible, setSignupVisible] = useState(false);
 
-    return (
+    return ( 
         <Row style={{ minHeight: '100vh' }}>
             {/* Left Side Image */}
             <Col
