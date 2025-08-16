@@ -17,7 +17,7 @@ router.get('/', authenticate, async (req: AuthRequest, res: Response): Promise<v
             sortBy = 'date',
             sortOrder = 'desc'
         } = req.query;
-
+ 
         const pageNum = parseInt(page as string);
         const limitNum = parseInt(limit as string);
         const skip = (pageNum - 1) * limitNum;
