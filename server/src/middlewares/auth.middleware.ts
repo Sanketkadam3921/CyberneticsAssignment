@@ -17,7 +17,7 @@ export const authenticate = (
         return;  // Just return after sending response
     }
 
-    const token = authHeader.split(' ')[1];
+    const token = authHeader.split(' ')[1]; 
 
     try {
         const jwtSecret = process.env.JWT_SECRET;
