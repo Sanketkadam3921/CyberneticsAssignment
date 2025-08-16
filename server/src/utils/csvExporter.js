@@ -16,7 +16,7 @@ const createCSV = (transactions, columns) => __awaiter(void 0, void 0, void 0, f
         const csvStringifier = (0, csv_writer_1.createObjectCsvStringifier)({
             header: columns.map((col) => ({
                 id: col,
-                title: col.charAt(0).toUpperCase() + col.slice(1).replace('_', ' ')
+                title: col.charAt(0).toUpperCase() + col.slice(1).replace('_', ' ') 
             })),
         });
         const records = transactions.map((transaction) => {
