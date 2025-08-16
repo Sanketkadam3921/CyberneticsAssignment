@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 
 const { Title } = Typography;
 
-interface SignupModalProps {
+interface SignupModalProps { 
     visible: boolean;
     onClose: () => void;
 }
