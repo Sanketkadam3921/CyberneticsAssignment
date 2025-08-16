@@ -22,7 +22,7 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "bcryptjs": "^3.0.2",
+    "bcryptjs": "^3.0.2", 
     "cors": "^2.8.5",
     "csv-writer": "^1.6.0",
     "dotenv": "^16.5.0",
