@@ -11,7 +11,7 @@ const authenticate = (req, res, next) => {
         res.status(401).json({ message: 'No token provided' });
         return; // Just return after sending response
     }
-    const token = authHeader.split(' ')[1];
+    const token = authHeader.split(' ')[1]; 
     try {
         const jwtSecret = process.env.JWT_SECRET;
         if (!jwtSecret) {
