@@ -9,7 +9,7 @@ const { Search } = Input;
 
 interface Message {
     id: string;
-    title: string;
+    title: string; 
     content: string;
     date: string;
     read: boolean;
