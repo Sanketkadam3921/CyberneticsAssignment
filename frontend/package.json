@@ -12,7 +12,7 @@
   "dependencies": {
     "@ant-design/icons": "^6.0.0",
     "@emotion/react": "^11.14.0",
-    "@emotion/styled": "^11.14.1",
+    "@emotion/styled": "^11.14.1", 
     "@mui/icons-material": "^7.1.2",
     "@mui/material": "^7.1.2",
     "antd": "^5.26.2",
