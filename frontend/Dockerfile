@@ -12,7 +12,7 @@ FROM nginx:alpine
 
 # Copy build output to nginx's web root
 COPY --from=builder /app/dist /usr/share/nginx/html
-
+ 
 # Optional: overwrite default nginx config (skip if not needed)
 # COPY nginx.conf /etc/nginx/conf.d/default.conf
 
