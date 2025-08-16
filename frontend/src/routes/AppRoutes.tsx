@@ -13,7 +13,7 @@ const AppRoutes = () => {
     return (
         <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/" element={<MainLayout />}>
+            <Route path="/" element={<MainLayout />}> 
                 <Route path="dashboard" element={<DashboardLayout />} />
                 <Route path="transactions" element={<TransactionsPage />} />
                 <Route path="wallet" element={<WalletPage />} />
