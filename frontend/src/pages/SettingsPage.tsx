@@ -23,7 +23,7 @@ const SettingsPage: React.FC = () => {
 
     useEffect(() => {
         const saved = localStorage.getItem('app_settings');
-        if (saved) {
+        if (saved) { 
             const parsed = JSON.parse(saved);
             setThemeDark(parsed.themeDark);
             setAnimations(parsed.animations);
